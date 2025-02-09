@@ -1,0 +1,43 @@
+{
+	"name": "react-discord-ui",
+	"version": "1.0.0",
+	"description": "Discord UI library for React",
+	"main": "dist/cjs/index.js",
+	"module": "dist/esm/index.js",
+	"types": "dist/types/index.d.ts",
+	"scripts": {
+		"build": "tsc --noEmitOnError -p tsconfig.types.json && rollup -c"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/itspi3141/react-discord-ui.git"
+	},
+	"keywords": ["discord", "ui", "react"],
+	"author": "ItsPi3141",
+	"license": "GPL-3.0-only",
+	"devDependencies": {
+		"@rollup/plugin-node-resolve": "^16.0.0",
+		"@rollup/plugin-typescript": "^12.1.2",
+		"@types/react": "^19.0.8",
+		"@unocss/postcss": "^65.4.3",
+		"react": "^19.0.0",
+		"react-dom": "^19.0.0",
+		"rollup": "^4.34.6",
+		"rollup-plugin-postcss": "^4.0.2",
+		"tslib": "^2.8.1",
+		"typescript": "^5.7.3",
+		"unocss": "^65.4.3"
+	},
+	"peerDependencies": {
+		"react": "^18.0.0 || ^19.0.0",
+		"react-dom": "^18.0.0 || ^19.0.0"
+	},
+	"peerDependenciesMeta": {
+		"react": {
+			"optional": true
+		},
+		"react-dom": {
+			"optional": true
+		}
+	}
+}
