@@ -1,6 +1,6 @@
 import "./App.css";
 
-import { Button } from "../../src";
+import { Button } from "../../dist/es/";
 
 function App() {
 	return (
