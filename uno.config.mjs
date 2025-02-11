@@ -4,5 +4,9 @@ export default defineConfig({
 	content: {
 		filesystem: ["**/*.{html,js,ts,jsx,tsx}"],
 	},
-	presets: [presetUno()],
+	presets: [
+		presetUno({
+			prefix: "dcui-",
+		}),
+	],
 });
